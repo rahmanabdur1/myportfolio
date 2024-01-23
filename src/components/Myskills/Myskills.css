@@ -1,0 +1,128 @@
+.skills-container {
+    background-color: #fffafa;
+    font-family: 'Jost', sans-serif;
+}
+
+.skills {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+
+.skills-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: box-shadow 0.3s;
+    border: 2px solid black; /* Add this line to set a black border */
+   
+}
+
+.category:hover {
+   box-shadow: 5px 5px #6b6b5f;
+
+} 
+
+.category img {
+    object-fit: contain;
+    width: 80px;
+    max-width: 100%;
+    border-radius:50%;
+    transition:  0.6s ease-in-out;
+}
+
+.category span{
+    font-size: 15px;
+}
+.skills-img {
+    flex: .8;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .skills {
+        max-width: 1000px;
+        margin: auto;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .skills {
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .skills {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .skills-categories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        max-width: 450px;
+        margin: 24px auto auto auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .skills-categories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+.category {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: box-shadow 0.3s;
+    border: 2px solid black; /* Add this line to set a black border */
+   
+}
+}

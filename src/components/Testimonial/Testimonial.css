@@ -1,0 +1,129 @@
+.testimonial-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    gap: 24px;
+    border: 2px solid black;
+    transition: box-shadow 0.3s;
+    padding: 35px 30px 35px 30px ;
+    border: 2px solid black;
+}
+.testimonial img{
+    width: 110px;
+    border: 2px solid black;
+}
+
+.testimonial:hover {
+    box-shadow: 4px 4px black;
+    border: 2px solid black;
+
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content p{
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    line-height: 1.6;
+    word-spacing: 3px;
+    color: #808080;
+}
+.content_auth-role{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.content_auth-role span:nth-child(1){
+    color:#4d4d4d;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+.content_auth-role span:nth-child(2){
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    color: #808080;
+    word-spacing: 3px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+   
+    .testimonial-container {
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        position: relative;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+   
+    .testimonial-container {
+        max-width: 800px;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 100px;
+         position: relative;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+   
+    .testimonial-container {
+        max-width: 600px;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 100px;
+         position: relative;
+    
+    }
+   
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .testimonial-container {
+        max-width: 430px;
+        margin: 24px auto auto auto;
+        padding-top: 60px;
+        padding-bottom: 100px;
+         position: relative;
+    
+    }
+    
+
+}

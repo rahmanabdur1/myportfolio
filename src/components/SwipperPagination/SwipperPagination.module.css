@@ -1,0 +1,27 @@
+
+.swiper_pagination  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    position: relative;
+  }
+  
+  .swiper_pagination .btn {
+    background-color: #bbb;
+    position: relative;
+    width: 2px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+  }
+  
+  .swiper_pagination .btn:hover {
+    background-color: hsl(210, 100%, 40%);
+    cursor: pointer;
+  }
+  
