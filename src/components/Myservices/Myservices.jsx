@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+
 import './Myservices.css';
 import webdesign1 from '../../assets/myskills/web1.jpg';
 import webdesign2 from '../../assets/myskills/seo.jpg';
@@ -6,13 +6,7 @@ import webdesign3 from '../../assets/myskills/web2.jpg';
 import webdesign4 from '../../assets/myskills/cloud.png';
 
 const Myservices = () => {
-    useEffect(() => {
-        const container = document.querySelector('.services-grid');
-        for (let i = 0; i < 71; i++) {
-            const divs = document.createElement('span');
-            container.appendChild(divs);
-        }
-    }, []);
+   
 
     const servicesData = [
         {
@@ -43,7 +37,7 @@ const Myservices = () => {
 
     return (
         <div className='services-container' id="services">
-            <div className='services-grid'></div>
+         
             <div className='services-contant'>
                 <h2 className='heading'>MY SERVICES</h2>
                 <div className='services'>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Hero.css';
 import img from '../../assets/developer-img.jpg';
 import { TypeAnimation } from 'react-type-animation';
@@ -29,7 +29,7 @@ const Hero = () => {
           <span>Based in Dhaka, Bangladesh.</span>         
           <div className='contact-btn'>
             <a href="#contact">
-              LET'S START
+            LET&apos;S START
             </a>
           </div>
         </div>

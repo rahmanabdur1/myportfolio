@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Myexperience.css'
 import img from '../../assets/developer-img.jpg';
 const Myexperience = () => {
@@ -10,8 +10,8 @@ const Myexperience = () => {
                     <img src={img} alt='/me' />
                 </div>
                 <div className='experience-content' >
-                    <h2>I'm a Freelancer Front-end Developer with over 1+ years of practical experience.</h2>
-                    <p>I'm a Freelancer Front-end Developer with over 1+ years of practical experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+                    <h2>I&apos;m a Freelancer Front-end Developer with over 1+ years of practical experience.</h2>
+                    <p>I&apos;m a Freelancer Front-end Developer with over 1+ years of practical experience. I&apos;m from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
                     <div className='additional-info'>
                         <div className='additional-text'>
                             <div className='text'>

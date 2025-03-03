@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Mousewheel, Pagination } from 'swiper/modules';
+import { Mousewheel} from 'swiper/modules';
 
 import './Brands.css';
 import brand1 from '../../assets/myskills/brand-2.svg';

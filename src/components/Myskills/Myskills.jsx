@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img1 from '../../assets/myskills/img1.png';
 import img2 from '../../assets/myskills/img2.png';
 import img3 from '../../assets/myskills/img3.png';
