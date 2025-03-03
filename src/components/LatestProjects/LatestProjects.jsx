@@ -47,7 +47,7 @@ const LatestProjects = () => {
                         <span>3D IMAGE PROCESSING</span>
                         <h2>3D Image Processing App</h2>
                         <p>An advanced 3D image processing application designed to handle and manipulate images efficiently with cutting-edge technology.</p>
-                        <a href='https://lively-cactus-cdbd14.netlify.app/' target='_blank' rel="noopener noreferrer">VIEW PROJECT</a>
+                        <a href='https://3d-image-processing-app.vercel.app/' target='_blank' rel="noopener noreferrer">VIEW PROJECT</a>
                     </div>
                 </div>
 
