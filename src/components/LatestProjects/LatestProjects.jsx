@@ -24,12 +24,23 @@ const LatestProjects = () => {
                     </div>
                 </div> */}
 
+
+
                 <div className='project-content inva'>
                     <div className='project-text'>
                         <span>MOBILE SHOP APP</span>
                         <h2>Inva - Mobile Shop Application</h2>
                         <p>A sleek and modern mobile shop application built to enhance user experience and streamline product browsing and purchasing.</p>
                         <a href='https://inva.vercel.app/' target='_blank' rel="noopener noreferrer">VIEW PROJECT</a>
+                    </div>
+                </div>
+
+                <div className='project-content inva'>
+                    <div className='project-text'>
+                        <span>MERN FULL STACK SHOP APP</span>
+                        <h2> Shop Application</h2>
+                        <p>A sleek and modern mobile shop application built to enhance user experience and streamline product browsing and purchasing.</p>
+                        <a href='https://mern-ecommerce-4t5k.onrender.com/' target='_blank' rel="noopener noreferrer">VIEW PROJECT</a>
                     </div>
                 </div>
 
